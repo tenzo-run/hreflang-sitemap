@@ -1,0 +1,14 @@
+{
+  "baseURL": "https://example.com",
+  "defaultLocale": "en",
+  "locales": [
+    { "code": "en", "prefix": "" },
+    { "code": "ru", "prefix": "/ru" },
+    { "code": "zh-Hans", "prefix": "/zh" }
+  ],
+  "pages": [
+    { "path": "/", "priority": 1.0, "changefreq": "daily" },
+    { "path": "/pricing", "priority": 0.8, "lastmod": "2026-09-01T00:00:00Z" },
+    { "path": "/blog/kazakhstan-logistics", "locales": ["en", "ru"] }
+  ]
+}
